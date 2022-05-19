@@ -28,6 +28,8 @@ Private 66th, Score 0.8232 (66/481, 13.7%)
 - model : swin_tiny_patch4_window7_224, mixnet_s, efficientnetB2(class weight x), efficientnetB0
 
    ↳ model에 따라 class weight를 적용했을 때 성능이 높아지는 경우도 있고 낮아지는 경우도 있어서 성능 높은 모델로 채택
+   
+   ↳ 비교적 parameter 수가 작은 것에 성능이 잘 나옴
 - input size : 300(mixnet_s, efficientnetB2, efficientnetB0), 224(swin_tiny_patch4_window7_224
 
 ### Inference (Inference.ipynb)
