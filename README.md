@@ -30,6 +30,8 @@ Private 66th, Score 0.8232 (66/481, 13.7%)
    ↳ model마다 class weight 유무 실험 후 성능 높은 모델로 채택 → efficientnetB2는 class weight X
    
    ↳ 비교적 parameter 수가 작은 것에 성능이 잘 나옴
+   
+   ↳ pretrain model 사용
 - input size : 300(mixnet_s, efficientnetB2, efficientnetB0), 224(swin_tiny_patch4_window7_224
 
 ### Inference (Inference.ipynb)
