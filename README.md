@@ -25,7 +25,11 @@ Private 66th, Score 0.8232 (66/481, 13.7%)
 - loss : CrossEntropyLoss
 - optimizer : Adam
 - scheduler : ReduceLROnPlateau(patience=4)
-- model(public) : swin_tiny_patch4_window7_224(0.76627), mixnet_s(0.72670), efficientnetB2(0.73043), efficientnetB0(0.75146)
+- model(public) :
+  - swin_tiny_patch4_window7_224 (0.76627)
+  - mixnet_s (0.72670)
+  - efficientnetB2 (0.73043)
+  - efficientnetB0 (0.75146)
 
    ↳ model마다 class weight 유무 실험 후 성능 높은 모델로 채택 → efficientnetB2는 class weight X
    
